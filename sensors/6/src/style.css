@@ -1,0 +1,14 @@
+#compassImage {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 50px auto;
+  background-image: url('compass-needle.png'); /* Replace with your compass needle image URL */
+  background-size: cover;
+  transform-origin: center;
+}
+#compassData {
+  text-align: center;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+}

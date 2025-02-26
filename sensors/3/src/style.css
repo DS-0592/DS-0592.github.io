@@ -1,0 +1,48 @@
+/* Default stylesheet and tools */
+body,
+html {
+	background: rgb(245, 245, 245);
+	padding: 0;
+	margin: 0;
+	font-size: 11px;
+	height: 100vh;
+	width: 100vw;
+	transition: all 0.5s ease;
+}
+
+#main {
+	padding: 5px
+}
+
+#container {
+	position: relative;
+}
+
+@media (max-width:960px) { 
+}
+
+#dot{
+	width: 30px;
+	height: 30px;
+	background-color: black;
+	border-radius: 50%;
+	position:fixed;
+	left: -100px;
+	top: -100px;
+}
+
+
+#accelPermsButton {
+	position: fixed;
+	top: 10px;
+	right: 10px;
+}
+
+#image {
+	position: fixed;
+	bottom: 50%;
+	left: 50%;
+	width: 10%;
+	transform-origin: 50% 50%;
+	transform: translate(-50%, 50%);
+}
